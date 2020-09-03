@@ -1,4 +1,4 @@
-# npm related 
+# npm related
 yarn.lock
 
 # Logs
@@ -44,3 +44,5 @@ build/
 
 # Nohup
 nohup.out
+
+.vscode
