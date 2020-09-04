@@ -19,7 +19,7 @@ const data = [
   //   icon: faFacebook,
   // },
   // {
-  //   link: 'https://www.instagram.com/dangelosaurus/',
+  //   link: 'https://',
   //   label: 'Instagram',
   //   icon: faInstagram,
   // },
@@ -29,12 +29,12 @@ const data = [
     icon: faLinkedinIn,
   },
   // {
-  //   link: 'https://angel.co/michael-d-angelo',
+  //   link: 'https://',
   //   label: 'Angel List',
   //   icon: faAngellist,
   // },
   // {
-  //   link: 'https://twitter.com/dangelosaurus',
+  //   link: 'https://',
   //   label: 'Twitter',
   //   icon: faTwitter,
   // },

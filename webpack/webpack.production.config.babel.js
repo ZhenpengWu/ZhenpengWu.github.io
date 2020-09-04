@@ -72,7 +72,7 @@ export default {
           mimetype: 'application/font-woff',
         },
       }, {
-        test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+        test: /\.(ttf|eot|svg|pdf)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
         loader: 'file-loader',
       }, {
         test: /\.js$/,

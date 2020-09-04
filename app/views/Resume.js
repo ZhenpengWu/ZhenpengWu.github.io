@@ -12,11 +12,12 @@ import Skills from '../components/Resume/Skills';
 import Courses from '../components/Resume/Courses';
 import References from '../components/Resume/References';
 
+import pdf from '../../public/resume.pdf';
+
 import courses from '../data/resume/courses';
 import degrees from '../data/resume/degrees';
 import positions from '../data/resume/positions';
 import { skills, categories } from '../data/resume/skills';
-
 
 const sections = [
   'Education',
@@ -33,7 +34,7 @@ const Resume = () => (
       <header>
         <div className="title">
           <h2><Link to="resume">Resume</Link>&nbsp;
-            <a href={`${BASE_PATH}/images/cv.pdf`}>
+            <a href={pdf}>
               <FontAwesomeIcon icon={download} />
             </a>
           </h2>
