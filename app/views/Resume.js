@@ -33,7 +33,7 @@ const Resume = () => (
       <header>
         <div className="title">
           <h2><Link to="resume">Resume</Link>&nbsp;
-            <a href={`${BASE_PATH}/resume.pdf`}>
+            <a href={`${BASE_PATH}/images/cv.pdf`}>
               <FontAwesomeIcon icon={download} />
             </a>
           </h2>
