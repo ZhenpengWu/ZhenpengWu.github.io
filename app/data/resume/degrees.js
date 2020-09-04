@@ -1,14 +1,14 @@
 const degrees = [
   {
-    school: 'Stanford University',
-    degree: 'M.S. Computational and Mathematical Engineering',
-    link: 'https://stanford.edu',
-    year: 2016,
+    school: 'University of British Columbia',
+    degree: 'Master of Engineering, Electrical and Computer Engineering',
+    link: 'https://www.ubc.ca/',
+    year: 'Sept. 2019 - Present',
   }, {
-    school: 'University at Buffalo',
-    degree: 'B.S. Electrical Engineering, Computer Engineering',
-    link: 'https://buffalo.edu',
-    year: 2012,
+    school: 'University of British Columbia',
+    degree: 'Bachelor of Arts, Major in Computer Science',
+    link: 'https://www.ubc.ca/',
+    year: 'Sept. 2015 - May 2019',
   },
 ];
 
