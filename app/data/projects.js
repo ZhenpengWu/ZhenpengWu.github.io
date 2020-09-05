@@ -1,42 +1,34 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    link: '/projects/nearestdollar/',
+    title: 'SoliGity: Blockchain Decentralized Application',
+    subtitle: '',
+    link: 'https://github.com/SoliGity',
     image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
-    desc: 'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+    date: '2019-05',
+    desc: 'We created a novel platform based on a smart contract written in Solidity to help'
+      + 'developers to discover projects they interested in, make contributions and get rewarded'
+      + 'in Ethereum from the project owner. '
+      + 'It ensured that the sponsor and the developer will have accurate, consistent and transparent'
+      + 'information on the transactions between them, and eliminated the need for third-party'
+      + 'mediation and avoiding human error.',
   }, {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
-    desc: 'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
-  }, {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
-    desc: 'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
-  }, {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
+    title: 'Radio Modulation Classification using Neural Network',
+    subtitle: '',
     link: '/project/catdetector/',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc: 'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-     + 'Over 60,000 cats were classified before server bills made the project too expensive '
-     + 'to continue hosting.',
+    image: '/images/projects/harvest.jpg',
+    date: '2019-05',
+    desc: 'I implemented neural networks based radio modulation classifier using Keras, specifically '
+      + 'ANN and CNN. and I applied the models to RadioML 2016.10A, and achieved an average classification '
+      + 'accuracy of close to 80% at varying signal-to-noise ratio conditions ranging from 0dB to 18dB.',
+  }, {
+    title: 'Delivery System React Web Application',
+    subtitle: 'A kickstarter funded potato powered weather balloon.',
+    link: 'https://github.com/ZhenpengWu/Delivery-System',
+    image: '/images/projects/spacepotato.jpg',
+    date: '2018-01',
+    desc: 'We designed and populated PostgreSQL database and hosted on Heroku. '
+      + 'And we implemented a RESTful backend server to embed the database and handle requests sent from the frontend. ',
   },
 ];
 
